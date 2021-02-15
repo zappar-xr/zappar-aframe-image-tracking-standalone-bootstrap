@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
     <script src="https://libs.zappar.com/zappar-aframe/0.3.6/zappar-aframe.js"></script>
-    
+
     <title>Zappar for A-Frame</title>
     <style>
         html,
@@ -25,8 +25,8 @@
         </a-assets>
 
         <a-entity camera zappar-camera></a-entity>
-        
-        <a-entity zappar-image="#target-file" id="image-group">
+
+        <a-entity zappar-image="target: #target-file" id="image-group">
 
             <!-- PLACE 3D OBJECTS HERE TO TRACK FROM THE CENTER OF THE IMAGE -->
             <a-box position="0 0 0.5"></a-box>
