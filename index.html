@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
-    <script src="https://libs.zappar.com/zappar-aframe/0.3.8/zappar-aframe.js"></script>
+    <script src="https://libs.zappar.com/zappar-aframe/0.3.9/zappar-aframe.js"></script>
 
     <title>Zappar for A-Frame</title>
     <style>
@@ -20,6 +20,11 @@
 
 <body>
     <a-scene>
+        <!-- Ask user for camera permissions -->
+        <a-entity zappar-permissions-ui id="permissions"></a-entity>
+        <!-- Browser Compatibility -->
+        <a-entity zappar-compatibility-ui id="compatibility"></a-entity>
+
         <a-assets>
             <a-asset-item id="target-file" src="example-tracking-image.zpt"/>
         </a-assets>
