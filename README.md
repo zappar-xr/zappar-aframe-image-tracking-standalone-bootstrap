@@ -2,12 +2,12 @@
 
 ## Standalone Bootstrap Project
 
-In this project you'll find the following files that get you up and running with Zappar for AFrame.
+In this project you'll find the following files that get you up and running with Zappar for A-Frame.
 
 - *index.html*: contains the basic structure of you page and any necessary HTML UI elements
-- *index.js*: contains the code the sets up your AFrame scene and AR experience
+- *index.js*: contains the code the sets up your A-Frame scene and AR experience
 
-Head to the NPM package page for more information on how to build best-in-class AR experiences: [Zappar for AFrame](https://www.npmjs.com/package/@zappar/zappar-aframe) (@zappar/zappar-aframe)
+Head to the NPM package page for more information on how to build best-in-class AR experiences: [Zappar for A-Frame](https://www.npmjs.com/package/@zappar/zappar-aframe) (@zappar/zappar-aframe)
 
 ## Preview
 
